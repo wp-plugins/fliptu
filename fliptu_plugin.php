@@ -55,7 +55,7 @@ add_action('admin_init', 'usm_wp_enqueue_scripts');
 
    function usm_wp_enqueue_scripts() {
 		
-		wp_enqueue_style( 'jquery-style',plugin_dir_url(__FILE__).'flip_style');
+		wp_enqueue_style( 'jquery-style',plugin_dir_url(__FILE__).'flip_style.css');
 		wp_enqueue_script( 'jquery-ja',plugin_dir_url(__FILE__).'validate.js');
 		
    }
